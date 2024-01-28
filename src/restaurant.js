@@ -18,6 +18,9 @@ const loadPage = () => {
     coffeeInfo.innerHTML = "Do you feel like you can't get through the day without enough coffee? Do you just like the taste of coffee? Or do you perhaps just like to grab coffee with a friend and happen to be in Portland, OR? If any of these are true then you should stop by Big Rob's Coffeeshop."
     newDiv.appendChild(coffeeInfo);
 
+    const coffeeInfo2 = document.createElement('p');
+    coffeeInfo2.innerHTML = 'Established in 2037, we strive to serve all caffeine needs using coffee whether it be in the form of cold brew, espresso, old fashioned coffee, and even more.'
+    newDiv.appendChild(coffeeInfo2);
 
     const coffeeImage2 = new Image();
     coffeeImage2.src = Icon2;

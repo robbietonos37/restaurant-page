@@ -15,8 +15,8 @@ nav {
 }
 
 img {
-    width:300px;
-    
+    width: 300px;
+
 }
 
 #options {
@@ -36,14 +36,22 @@ button:hover {
     background-color: white;
 }
 
-#content {
-    color: brown;
-}
-
 li {
     list-style: none;
 }
 
 ul {
     list-style: none;
+}
+
+#content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    border: solid black 2px;
+    color: brown;
+}
+
+#pageInfo {
+    padding: 15px;
 }
