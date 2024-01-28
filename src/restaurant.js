@@ -3,6 +3,7 @@ import Icon from './coffee_ultimate.jpeg';
 import Icon2 from './coffee-feel.jpeg';
 
 const loadPage = () => {
+    console.log('Restaraunt content regenerated')
     const contentDiv = document.querySelector('#content');
 
     // Add the image to our existing content

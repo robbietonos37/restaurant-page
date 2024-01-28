@@ -14,6 +14,14 @@ nav {
     align-content: center;
 }
 
+a {
+    text-decoration: none;
+    background-color: brown;
+    height: 55px;
+    border: none;
+    font-size: 35px;
+}
+
 img {
     width: 300px;
 
@@ -31,7 +39,7 @@ button {
     font-size: 35px;
 }
 
-button:hover {
+a:hover {
     color: brown;
     background-color: white;
 }
