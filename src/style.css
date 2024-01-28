@@ -1,0 +1,12 @@
+* {
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+
+#content {
+    background-image: url('./coffee_ultimate.jpeg');
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
