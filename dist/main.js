@@ -1,1 +1,1 @@
-console.log("It is working ok");
+(()=>{"use strict";console.log("It is working ok"),(()=>{const e=document.querySelector("#content"),o=document.createElement("h1");o.innerHTML="Big Rob's Coffee Shop",e.appendChild(o);const n=document.createElement("div");n.id="pageInfo",n.innerHTML="Big Rob's coffee shop opened its doors in 2037",e.appendChild(n)})()})();
