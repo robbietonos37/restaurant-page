@@ -88,8 +88,7 @@ h2 {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(350px, 1fr));
     gap: 40px;
-    grid-auto-flow: column;
-
+    margin-bottom: 50px;
 }
 
 .menu-item {

@@ -1,6 +1,9 @@
 import ColdbrewImg from './coldbrew-rest.jpeg';
 import Cappuccino from './cappo.jpeg';
 import Latte from './latte.webp';
+import Drip from './drip.jpeg';
+import Americano from './americano.webp';
+import Choices from './choices.jpeg';
 
 const renderMenu = () => {
     const contentDiv = document.querySelector('#content');
@@ -39,9 +42,35 @@ const renderMenu = () => {
     menuItem3.appendChild(latteImg);
     menuContainerDiv.appendChild(menuItem3);
 
+    const menuItem4 = document.createElement('div');
+    menuItem4.classList.add('menu-item');
+    const itemInfo4 = document.createElement('p');
+    itemInfo4.innerHTML = 'Drip Coffee (Hot or Iced)';
+    menuItem4.appendChild(itemInfo4);
+    const dripImg = new Image();
+    dripImg.src = Drip;
+    menuItem4.appendChild(dripImg);
+    menuContainerDiv.appendChild(menuItem4);
 
-    menuContainerDiv.appendChild(menuItem2);
-    menuContainerDiv.appendChild(menuItem3);
+    const menuItem5 = document.createElement('div');
+    menuItem5.classList.add('menu-item');
+    const itemInfo5 = document.createElement('p');
+    itemInfo5.innerHTML = 'Americano (Hot or Iced)';
+    menuItem5.appendChild(itemInfo5);
+    const americanoImg = new Image();
+    americanoImg.src = Americano;
+    menuItem5.appendChild(americanoImg);
+    menuContainerDiv.appendChild(menuItem5);
+
+    const menuItem6 = document.createElement('div');
+    menuItem6.classList.add('menu-item');
+    const itemInfo6 = document.createElement('p');
+    itemInfo6.innerHTML = 'And many more choices';
+    menuItem6.appendChild(itemInfo6);
+    const choicesImg = new Image();
+    choicesImg.src = Choices;
+    menuItem6.appendChild(choicesImg);
+    menuContainerDiv.appendChild(menuItem6);
 
     return contentDiv;
 }
