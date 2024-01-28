@@ -2,11 +2,48 @@
     font-family: Helvetica Neue, Helvetica, sans-serif;
 }
 
-#content {
-    background-image: url('./coffee_ultimate.jpeg');
-    color: white;
+h1 {
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
-h1 {
-    text-align: center;
+nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: brown;
+    align-content: center;
+}
+
+img {
+    width:300px;
+    
+}
+
+#options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+button {
+    background-color: brown;
+    height: 55px;
+    border: none;
+    font-size: 35px;
+}
+
+button:hover {
+    color: brown;
+    background-color: white;
+}
+
+#content {
+    color: brown;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    list-style: none;
 }
